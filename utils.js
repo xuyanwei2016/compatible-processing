@@ -34,5 +34,13 @@ function getCss(attr) {
     return reg.test(val) ? parseFloat(val) : val;
 }
 
+/*win:操作浏览器的盒子模型信息*/
+function win(attr, value) {
+    if (typeof value === "undefined") {
+        return document.documentElement[attr] || document.body[attr];
+    }
+    document.documentElement[attr] = value;
+    document.body[attr] = value;
+}
 
 

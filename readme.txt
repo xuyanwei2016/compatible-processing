@@ -14,6 +14,13 @@ try...catch(e)...finally...
 3.getCss:获取元素的样式值
 "getComputedStyle" in window是兼容的情况下，可以直接获取到想要的样式
 
+4.win:JS盒子模型-》获取和设置
+JS盒子模型是否传参的两种方法
+假如value没有传值就是获取，如果传值了就是替换
+如果定义了形参，但是没有赋值拿到的是基本数据类型中的undefined；
+如果用typeof来判断，得到的undefined一定加引号
+
+
 
 
 
