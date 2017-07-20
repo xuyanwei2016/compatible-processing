@@ -107,6 +107,12 @@ function setCss(attr, value) {
     this["style"][attr] = value;
 }
 
+/*setGroupCss:给当前元素批量的设置样式属性值*/
+function setGroupCss(curEle,opt) {
+    for (var attr in opt) {//attr:width,height,opt:100
+        this.setCss(curEle,attr,opt[attr]);
+    }
+}
 
 
 
