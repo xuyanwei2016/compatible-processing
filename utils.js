@@ -140,7 +140,20 @@ function getElementsByClass(strClass, context) {
     return ary;
 }
 
-
+/*css:此方法实现了获取、单独设置、批量设置元素的样式值*/
+function css(curEle) {
+    var argTwo = arguments[1], ary = Array.prototype.slice.call(arguments, 1);
+    if (typeof argTwo === "string") {
+        if (typeof arguments[2] === "undefined") {
+            return getCss.apply(curEle, ary);
+        }
+        setCss.apply(curEle, ary);
+    }
+    argTwo = argTwo || 0;
+    if (argTwo.toString() === "[object Object]") {
+        setGroupCss.apply(curEle, ary);
+    }
+}
 
 
 
