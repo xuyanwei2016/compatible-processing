@@ -261,5 +261,14 @@ function append(newEle, container) {
     container.appendChild(newEle);
 }
 
+/*prepend:向指定容器的开头追加元素*/
+function prepend(newEle, container) {
+    var fir = this.firstChild(container);
+    if (fir) {
+        container.insertBefore(newEle, fir);
+        return;
+    }
+    container.appendChild(newEle);
+}
 
 
