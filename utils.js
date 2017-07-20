@@ -202,3 +202,12 @@ function next(curEle) {
     return nex;
 }
 
+/*sibling:获取相邻的两个元素节点*/
+function sibling(curEle) {
+    var pre = this.prev(curEle);
+    var nex = this.next(curEle);
+    var ary = [];
+    pre ? ary.push(pre) : null;
+    nex ? ary.push(nex) : null;
+    return ary;
+}

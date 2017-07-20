@@ -77,7 +77,7 @@ var flag = "getComputedStyle" in window;
 
 15.获取下一个弟弟元素节点
 
-
+16.获取相邻的两个元素节点
 
 
 
