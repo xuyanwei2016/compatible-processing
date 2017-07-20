@@ -47,6 +47,7 @@ JS盒子模型是否传参的两种方法
 13.getChildren:获取当前元素下所有的子元素，并且可以有过滤的功能
 或者以下的方法
 //->children:获取所有的元素子节点
+var flag = "getComputedStyle" in window;
     function children(curEle, tagName) {
         var ary = [];
         if (!flag) {
@@ -70,3 +71,6 @@ JS盒子模型是否传参的两种方法
         }
         return ary;
     }
+
+14.prev:获取上一个哥哥元素节点
+首先获取当前元素的上一个哥哥节点,判断是否为元素节点,不是的话基于当前的继续找上面的哥哥节点...一直到找到哥哥元素节点为止,如果没有哥哥元素节点,返回null即可

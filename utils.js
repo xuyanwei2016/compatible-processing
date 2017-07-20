@@ -178,6 +178,17 @@ function getChildren(curEle,tagName){
     return ary;
 }
 
+/*prev:获取上一个哥哥元素节点*/
+function prev(curEle) {
+    if ("getComputedStyle" in window) {
+        return curEle.previousElementSibling;
+    }
+    var pre = curEle.previousSibling;
+    while (pre && pre.nodeType !== 1) {
+        pre = pre.previousSibling;
+    }
+    return pre;
+}
 
 
 
