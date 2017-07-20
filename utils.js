@@ -57,3 +57,14 @@ function offset(curEle) {
     }
     return {left: disLeft, top: disTop};
 }
+
+/*addClass:给元素增加样式类名*/
+function addClass(curEle, className) {
+    var ary = className.replace(/(^ +| +$)/g, "").split(/ +/g);
+    for (var i = 0, len = ary.length; i < len; i++) {
+        var curName = ary[i];
+        if (!this.hasClass(curEle, curName)) {
+            curEle.className += " " + curName;
+        }
+    }
+}
