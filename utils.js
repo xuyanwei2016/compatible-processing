@@ -68,3 +68,24 @@ function addClass(curEle, className) {
         }
     }
 }
+
+/*removeClass:给元素移除样式类名*/
+function removeClass(curEle, className) {
+    var ary = className.replace(/(^ +| +$)/g, "").split(/ +/g);
+    for (var i = 0, len = ary.length; i < len; i++) {
+        var reg=new RegExp('(^| +)'+ary[i]+'( +|$)','g');
+        if (reg.test(curEle.className)) {
+            curEle.className=curEle.className.replace(reg,' ').replace(/(^ +)|( +$)/g,'').replace(/\s+/g,'');
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
