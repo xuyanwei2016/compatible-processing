@@ -216,3 +216,14 @@ function sibling(curEle) {
 function siblings(curEle) {
     return this.prevAll(curEle).concat(this.nextAll(curEle));
 }
+
+/*prevAll:获取所有的哥哥元素节点*/
+function prevAll(curEle) {
+    var ary = [];
+    var pre = this.prev(curEle);
+    while (pre) {
+        ary.unshift(pre);
+        pre = this.prev(pre);
+    }
+    return ary;
+}
