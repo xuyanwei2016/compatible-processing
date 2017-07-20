@@ -20,7 +20,10 @@ JS盒子模型是否传参的两种方法
 如果定义了形参，但是没有赋值拿到的是基本数据类型中的undefined；
 如果用typeof来判断，得到的undefined一定加引号
 
-
+5.offset:获取页面中任意元素距离BODY的偏移
+到后来的写par = par.offsetParent;行代码 因为不写的话就一直是自己和自己父级之间的关系 不会找到父级的父级，就会形成一个死循环，
+在IE8中offsetLeft下直接包含了边框，就不用写clientLeft,
+用window.navigator.userAgent.indexOf('MSIE8')===-1就是看当前浏览器是不是ie8
 
 
 

@@ -43,4 +43,17 @@ function win(attr, value) {
     document.body[attr] = value;
 }
 
-
+/*offset:获取页面中任意元素距离BODY的偏移*/
+function offset(curEle) {
+    var disLeft = curEle.offsetLeft, disTop = curEle.offsetTop, par = curEle.offsetParent;
+    while (par) {
+        if (navigator.userAgent.indexOf("MSIE 8") === -1) {
+            disLeft += par.clientLeft;
+            disTop += par.clientTop;
+        }
+        disLeft += par.offsetLeft;
+        disTop += par.offsetTop;
+        par = par.offsetParent;
+    }
+    return {left: disLeft, top: disTop};
+}
