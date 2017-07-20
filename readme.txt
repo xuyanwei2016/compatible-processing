@@ -25,10 +25,12 @@ JS盒子模型是否传参的两种方法
 在IE8中offsetLeft下直接包含了边框，就不用写clientLeft,
 用window.navigator.userAgent.indexOf('MSIE8')===-1就是看当前浏览器是不是ie8
 
-6.addClass:给元素增加样式类名
+6.hasClass:验证当前元素中是否包含className这个样式类名
+
+7.addClass:给元素增加样式类名
 验证元素身上，如果没有某个class名，进行添加，添加时一定要注意空格
 
-7.removeClass:给元素移除样式类名
+8.removeClass:给元素移除样式类名
 判断当前元素的样式中是否有传进来的这个样式名 有就会移除掉 被替换成空
 
 

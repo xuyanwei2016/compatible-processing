@@ -58,6 +58,12 @@ function offset(curEle) {
     return {left: disLeft, top: disTop};
 }
 
+/*hasClass:验证当前元素中是否包含className这个样式类名*/
+function hasClass(curEle, className) {
+    var reg = new RegExp("(^| +)" + className + "( +|$)");
+    return reg.test(curEle.className);
+}
+
 /*addClass:给元素增加样式类名*/
 function addClass(curEle, className) {
     var ary = className.replace(/(^ +| +$)/g, "").split(/ +/g);
@@ -79,6 +85,8 @@ function removeClass(curEle, className) {
         }
     }
 }
+
+
 
 
 
