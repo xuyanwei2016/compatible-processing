@@ -114,6 +114,31 @@ function setGroupCss(curEle,opt) {
     }
 }
 
+/*getElementsByClass:通过元素的样式类名获取一组元素集合*/
+function getElementsByClass(strClass, context) {
+    context = context || document;
+    if ("getComputedStyle" in window) {
+        return this.makeArray(context.getElementsByClassName(strClass));
+    }
+    //->IE6~8  'c1 c2'  ['c1','c2']
+    var ary = [], strClassAry = strClass.replace(/(^ +| +$)/g, "").split(/ +/g);
+    var nodeList = context.getElementsByTagName("*");
+    for (var i = 0, len = nodeList.length; i < len; i++) {
+        var curNode = nodeList[i];
+        var isOk = true; // div className = 'c1 c2 '  ' c3 c2 '  c2
+        for (var k = 0; k < strClassAry.length; k++) {
+            var reg = new RegExp("(^| +)" + strClassAry[k] + "( +|$)");
+            if (!reg.test(curNode.className)) {
+                isOk = false;
+                break;
+            }
+        }
+        if (isOk) {
+            ary[ary.length] = curNode;
+        }
+    }
+    return ary;
+}
 
 
 

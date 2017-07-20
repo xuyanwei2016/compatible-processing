@@ -38,3 +38,5 @@ JS盒子模型是否传参的两种方法
 
 10.给当前元素设置一组样式
 调用的时候utils.setGroupCss(op,{width:100,height:500,background:'yellow'})
+
+11.通过元素的样式类名获取一组元素集合
