@@ -190,5 +190,15 @@ function prev(curEle) {
     return pre;
 }
 
-
+/*next:获取下一个弟弟元素节点*/
+function next(curEle) {
+    if ("getComputedStyle" in window) {
+        return curEle.nextElementSibling;
+    }
+    var nex = curEle.nextSibling;
+    while (nex && nex.nodeType !== 1) {
+        nex = nex.nextSibling;
+    }
+    return nex;
+}
 
