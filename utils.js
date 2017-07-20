@@ -155,7 +155,28 @@ function css(curEle) {
     }
 }
 
-
+/*getChildren:获取当前袁术下所有的子元素，并且可以有过滤的功能*/
+function getChildren(curEle,tagName){
+    //获取所有的子节点
+    var nodeList=curEle.childNodes;
+    var ary=[];
+    //逐个验证每个子节点是否为元素节点
+    for(var i=0;i<nodeList.length;i++){
+        var cur=nodeList[i];
+        if(cur&&cur.nodeType===1){
+            //第二个参数不存在：没有过滤的功能
+            if (tagName===undefined){
+                ary.push(cur);
+            }else{
+                //说明第二个参数不存在，又过滤的功能
+                if(cur.tagName.toLocaleLowerCase()===tagName.toLowerCase()){
+                    ary.push(cur);
+                }
+            }
+        }
+    }
+    return ary;
+}
 
 
 
