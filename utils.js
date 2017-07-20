@@ -86,7 +86,26 @@ function removeClass(curEle, className) {
     }
 }
 
-
+/*setCss:给当前元素的某一个样式属性设置值(增加在行内样式上的)*/
+function setCss(attr, value) {
+    if (attr === "float") {
+        this["style"]["cssFloat"] = value;
+        this["style"]["styleFloat"] = value;
+        return;
+    }
+    if (attr === "opacity") {
+        this["style"]["opacity"] = value;
+        this["style"]["filter"] = "alpha(opacity=" + value * 100 + ")";
+        return;
+    }
+    var reg = /^(width|height|top|bottom|left|right|((margin|padding)(Top|Bottom|Left|Right)?))$/;
+    if (reg.test(attr)) {
+        if (!isNaN(value)) {
+            value += "px";
+        }
+    }
+    this["style"][attr] = value;
+}
 
 
 
