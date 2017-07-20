@@ -227,3 +227,14 @@ function prevAll(curEle) {
     }
     return ary;
 }
+
+/*nextAll:获取所有的弟弟元素节点*/
+function nextAll(curEle) {
+    var ary = [];
+    var nex = this.next(curEle);
+    while (nex) {
+        ary.push(nex);
+        nex = this.next(nex);
+    }
+    return ary;
+}

@@ -83,6 +83,7 @@ var flag = "getComputedStyle" in window;
 
 18.获取所有的哥哥元素节点
 
+19.获取所有的弟弟元素节点
 
 
 
