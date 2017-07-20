@@ -1,3 +1,5 @@
+var utils = (function () {
+
 /*jsonParse:功能是把JSON格式的字符串转成JSON格式的对象*/
 function jsonParse(jsonStr) {
     return 'JSON'in window?JSON.parse(jsonStr):eval('('+jsonStr+')');
@@ -285,4 +287,32 @@ function insertAfter(newEle, oldEle) {
     }
     oldEle.parentNode.appendChild(newEle);
 }
+
+//->把外界需要使用的方法暴露给utils
+return {
+    win: win,
+    offset: offset,
+    listToArray: listToArray,
+    formatJSON: formatJSON,
+    children: children,
+    prev: prev,
+    next: next,
+    prevAll: prevAll,
+    nextAll: nextAll,
+    sibling: sibling,
+    siblings: siblings,
+    index: index,
+    firstChild: firstChild,
+    lastChild: lastChild,
+    append: append,
+    prepend: prepend,
+    insertBefore: insertBefore,
+    insertAfter: insertAfter,
+    hasClass: hasClass,
+    addClass: addClass,
+    removeClass: removeClass,
+    getElementsByClass: getElementsByClass,
+    css: css
+};
+})();
 
