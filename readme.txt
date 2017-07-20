@@ -96,6 +96,7 @@ var flag = "getComputedStyle" in window;
 24.prepend:向指定容器的开头追加元素
 把新的元素添加到容器中第一个子元素节点的前面,如果一个元素子节点都没有,就放在末尾即可
 
+25.insertBefore:把新元素(newEle)追加到指定元素(oldEle)的前面
 
 
 

@@ -271,4 +271,9 @@ function prepend(newEle, container) {
     container.appendChild(newEle);
 }
 
+/*insertBefore:把新元素(newEle)追加到指定元素(oldEle)的前面*/
+function insertBefore(newEle, oldEle) {
+    oldEle.parentNode.insertBefore(newEle, oldEle);
+}
+
 
