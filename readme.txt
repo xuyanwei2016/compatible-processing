@@ -45,4 +45,28 @@ JS盒子模型是否传参的两种方法
 是根据curEle里面的值来判断响应的作用 如果是一个值的话就是获取 如果是两个值的话就是单独设置 如果不是以上的个数的话就是批量设置
 
 13.getChildren:获取当前元素下所有的子元素，并且可以有过滤的功能
-
+或者以下的方法
+//->children:获取所有的元素子节点
+    function children(curEle, tagName) {
+        var ary = [];
+        if (!flag) {
+            var nodeList = curEle.childNodes;
+            for (var i = 0, len = nodeList.length; i < len; i++) {
+                var curNode = nodeList[i];
+                curNode.nodeType === 1 ? ary[ary.length] = curNode : null;
+            }
+            nodeList = null;
+        } else {
+            ary = this.listToArray(curEle.children);
+        }
+        if (typeof tagName === "string") {
+            for (var k = 0; k < ary.length; k++) {
+                var curEleNode = ary[k];
+                if (curEleNode.nodeName.toLowerCase() !== tagName.toLowerCase()) {
+                    ary.splice(k, 1);
+                    k--;
+                }
+            }
+        }
+        return ary;
+    }
