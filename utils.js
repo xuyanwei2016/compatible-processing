@@ -238,3 +238,8 @@ function nextAll(curEle) {
     }
     return ary;
 }
+
+/*index:获取当前元素的索引*/
+function index(curEle) {
+    return this.prevAll(curEle).length;
+}

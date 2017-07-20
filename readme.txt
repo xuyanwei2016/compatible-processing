@@ -85,5 +85,7 @@ var flag = "getComputedStyle" in window;
 
 19.获取所有的弟弟元素节点
 
+20.获取当前元素的索引
+
 
 
