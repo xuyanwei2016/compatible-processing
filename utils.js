@@ -211,3 +211,8 @@ function sibling(curEle) {
     nex ? ary.push(nex) : null;
     return ary;
 }
+
+/*siblings:获取所有的兄弟元素节点*/
+function siblings(curEle) {
+    return this.prevAll(curEle).concat(this.nextAll(curEle));
+}
