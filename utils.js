@@ -256,6 +256,10 @@ function lastChild(curEle) {
     return chs.length > 0 ? chs[chs.length - 1] : null;
 }
 
+/*append:向指定容器的末尾追加元素*/
+function append(newEle, container) {
+    container.appendChild(newEle);
+}
 
 
 

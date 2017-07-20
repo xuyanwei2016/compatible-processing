@@ -91,3 +91,4 @@ var flag = "getComputedStyle" in window;
 
 22.获取最后一个元素子节点
 
+23.向指定容器的末尾追加元素
