@@ -24,8 +24,8 @@
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="98" column="46" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="46" />
+            <state relative-caret-position="651">
+              <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="273" column="45" lean-forward="true" selection-start-line="273" selection-start-column="2" selection-end-line="273" selection-end-column="45" />
+            <state relative-caret-position="678">
+              <caret line="278" column="46" lean-forward="false" selection-start-line="278" selection-start-column="46" selection-end-line="278" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#!!block;n#jsonParse#0" expanded="false" />
@@ -60,7 +60,6 @@
                 <element signature="n#!!block;n#nextAll#0" expanded="false" />
                 <element signature="n#!!block;n#index#0" expanded="false" />
                 <element signature="n#!!block;n#lastChild#0" expanded="false" />
-                <element signature="n#!!block;n#insertBefore#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,8 +68,8 @@
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://F:/2017上课all/Javascript201701/第四周（动画轮播图jq 类的封装）/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="170" column="5" lean-forward="true" selection-start-line="167" selection-start-column="8" selection-end-line="170" selection-end-column="5" />
+            <state relative-caret-position="550">
+              <caret line="172" column="8" lean-forward="true" selection-start-line="172" selection-start-column="8" selection-end-line="181" selection-end-column="5" />
               <folding>
                 <element signature="e#105#384#0" expanded="false" />
                 <element signature="e#431#554#0" expanded="false" />
@@ -86,16 +85,15 @@
                 <element signature="e#3883#4010#0" expanded="false" />
                 <element signature="e#4046#4185#0" expanded="false" />
                 <element signature="e#4391#4621#0" expanded="false" />
-                <element signature="e#4717#4780#0" expanded="false" />
-                <element signature="e#4941#5138#0" expanded="false" />
-                <element signature="e#5189#5343#0" expanded="false" />
-                <element signature="e#5372#5712#0" expanded="false" />
-                <element signature="e#5744#6180#0" expanded="false" />
-                <element signature="e#6227#7187#0" expanded="false" />
-                <element signature="e#7217#7795#0" expanded="false" />
-                <element signature="e#7844#8486#0" expanded="false" />
-                <element signature="e#8528#8729#0" expanded="false" />
-                <element signature="e#8772#9236#0" expanded="false" />
+                <element signature="e#4945#5142#0" expanded="false" />
+                <element signature="e#5193#5347#0" expanded="false" />
+                <element signature="e#5376#5716#0" expanded="false" />
+                <element signature="e#5748#6184#0" expanded="false" />
+                <element signature="e#6231#7191#0" expanded="false" />
+                <element signature="e#7221#7799#0" expanded="false" />
+                <element signature="e#7848#8490#0" expanded="false" />
+                <element signature="e#8532#8733#0" expanded="false" />
+                <element signature="e#8776#9240#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -246,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500478702928</updated>
-      <workItem from="1500478704129" duration="14985000" />
+      <workItem from="1500478704129" duration="15055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14985000" />
+    <option name="totallyTimeSpent" value="15055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="904" y="0" width="1017" height="1048" extended-state="0" />
@@ -322,8 +320,8 @@
     </entry>
     <entry file="file://F:/2017上课all/Javascript201701/第四周（动画轮播图jq 类的封装）/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="170" column="5" lean-forward="true" selection-start-line="167" selection-start-column="8" selection-end-line="170" selection-end-column="5" />
+        <state relative-caret-position="550">
+          <caret line="172" column="8" lean-forward="true" selection-start-line="172" selection-start-column="8" selection-end-line="181" selection-end-column="5" />
           <folding>
             <element signature="e#105#384#0" expanded="false" />
             <element signature="e#431#554#0" expanded="false" />
@@ -339,24 +337,23 @@
             <element signature="e#3883#4010#0" expanded="false" />
             <element signature="e#4046#4185#0" expanded="false" />
             <element signature="e#4391#4621#0" expanded="false" />
-            <element signature="e#4717#4780#0" expanded="false" />
-            <element signature="e#4941#5138#0" expanded="false" />
-            <element signature="e#5189#5343#0" expanded="false" />
-            <element signature="e#5372#5712#0" expanded="false" />
-            <element signature="e#5744#6180#0" expanded="false" />
-            <element signature="e#6227#7187#0" expanded="false" />
-            <element signature="e#7217#7795#0" expanded="false" />
-            <element signature="e#7844#8486#0" expanded="false" />
-            <element signature="e#8528#8729#0" expanded="false" />
-            <element signature="e#8772#9236#0" expanded="false" />
+            <element signature="e#4945#5142#0" expanded="false" />
+            <element signature="e#5193#5347#0" expanded="false" />
+            <element signature="e#5376#5716#0" expanded="false" />
+            <element signature="e#5748#6184#0" expanded="false" />
+            <element signature="e#6231#7191#0" expanded="false" />
+            <element signature="e#7221#7799#0" expanded="false" />
+            <element signature="e#7848#8490#0" expanded="false" />
+            <element signature="e#8532#8733#0" expanded="false" />
+            <element signature="e#8776#9240#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="273" column="45" lean-forward="true" selection-start-line="273" selection-start-column="2" selection-end-line="273" selection-end-column="45" />
+        <state relative-caret-position="678">
+          <caret line="278" column="46" lean-forward="false" selection-start-line="278" selection-start-column="46" selection-end-line="278" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#!!block;n#jsonParse#0" expanded="false" />
@@ -381,15 +378,14 @@
             <element signature="n#!!block;n#nextAll#0" expanded="false" />
             <element signature="n#!!block;n#index#0" expanded="false" />
             <element signature="n#!!block;n#lastChild#0" expanded="false" />
-            <element signature="n#!!block;n#insertBefore#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="98" column="46" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="46" />
+        <state relative-caret-position="651">
+          <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="45" />
           <folding />
         </state>
       </provider>

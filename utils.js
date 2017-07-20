@@ -276,4 +276,13 @@ function insertBefore(newEle, oldEle) {
     oldEle.parentNode.insertBefore(newEle, oldEle);
 }
 
+/*insertAfter:把新元素(newEle)追加到指定元素(oldEle)的后面*/
+function insertAfter(newEle, oldEle) {
+    var nex = this.next(oldEle);
+    if (nex) {
+        oldEle.parentNode.insertBefore(newEle, nex);
+        return;
+    }
+    oldEle.parentNode.appendChild(newEle);
+}
 

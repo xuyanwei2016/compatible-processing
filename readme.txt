@@ -98,6 +98,7 @@ var flag = "getComputedStyle" in window;
 
 25.insertBefore:把新元素(newEle)追加到指定元素(oldEle)的前面
 
-
+26.insertAfter:把新元素(newEle)追加到指定元素(oldEle)的后面
+相当于追加到oldEle弟弟元素的前面,如果弟弟不存在,也就是当前元素已经是最后一个了,我们把新的元素放在最末尾即可
 
 
