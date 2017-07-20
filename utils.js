@@ -243,3 +243,15 @@ function nextAll(curEle) {
 function index(curEle) {
     return this.prevAll(curEle).length;
 }
+
+/*firstChild:获取第一个元素子节点*/
+function firstChild(curEle) {
+    var chs = this.children(curEle);
+    return chs.length > 0 ? chs[0] : null;
+}
+
+
+
+
+
+
