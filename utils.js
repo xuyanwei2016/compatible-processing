@@ -16,6 +16,23 @@ function makeArray(arg) {
     }
 }
 
+/*getCss:获取元素的样式值*/
+function getCss(attr) {
+    var val = null, reg = null;
+    if ("getComputedStyle" in window) {
+        val = window.getComputedStyle(this, null)[attr];
+    } else {
+        if (attr === "opacity") {
+            val = this.currentStyle["filter"];
+            reg = /^alpha\(opacity=(\d+(?:\.\d+)?)\)$/;
+            val = reg.test(val) ? reg.exec(val)[1] / 100 : 1;
+        } else {
+            val = this.currentStyle[attr];
+        }
+    }
+    reg = /^(-?\d+(\.\d+)?)(px|pt|em|rem)?$/;
+    return reg.test(val) ? parseFloat(val) : val;
+}
 
 
 

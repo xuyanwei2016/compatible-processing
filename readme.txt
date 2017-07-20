@@ -11,4 +11,11 @@
 try...catch(e)...finally...
 因为无论走try，还是catch，finally中的运距都会执行，所以，一般不会用finally，try...catch(e)... e是错误原因
 
+3.getCss:获取元素的样式值
+"getComputedStyle" in window是兼容的情况下，可以直接获取到想要的样式
+
+
+
+
+
 
