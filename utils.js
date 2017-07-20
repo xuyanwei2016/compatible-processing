@@ -250,7 +250,11 @@ function firstChild(curEle) {
     return chs.length > 0 ? chs[0] : null;
 }
 
-
+/*lastChild:获取最后一个元素子节点*/
+function lastChild(curEle) {
+    var chs = this.children(curEle);
+    return chs.length > 0 ? chs[chs.length - 1] : null;
+}
 
 
 

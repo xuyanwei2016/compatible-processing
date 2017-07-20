@@ -24,8 +24,8 @@
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            <state relative-caret-position="751">
+              <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="246" column="23" lean-forward="false" selection-start-line="246" selection-start-column="13" selection-end-line="246" selection-end-column="23" />
+            <state relative-caret-position="674">
+              <caret line="252" column="23" lean-forward="false" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#!!block;n#jsonParse#0" expanded="false" />
@@ -59,6 +59,7 @@
                 <element signature="n#!!block;n#prevAll#0" expanded="false" />
                 <element signature="n#!!block;n#nextAll#0" expanded="false" />
                 <element signature="n#!!block;n#index#0" expanded="false" />
+                <element signature="n#!!block;n#lastChild#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,8 +68,8 @@
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://F:/2017上课all/Javascript201701/第四周（动画轮播图jq 类的封装）/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="143" selection-end-column="5" />
+            <state relative-caret-position="274">
+              <caret line="145" column="8" lean-forward="true" selection-start-line="145" selection-start-column="8" selection-end-line="149" selection-end-column="5" />
               <folding>
                 <element signature="e#105#384#0" expanded="false" />
                 <element signature="e#431#554#0" expanded="false" />
@@ -81,20 +82,20 @@
                 <element signature="e#3135#3343#0" expanded="false" />
                 <element signature="e#3377#3601#0" expanded="false" />
                 <element signature="e#3607#3739#0" expanded="false" />
-                <element signature="e#3911#4006#0" expanded="false" />
-                <element signature="e#4069#4177#0" expanded="false" />
-                <element signature="e#4246#4292#0" expanded="false" />
-                <element signature="e#4415#4605#0" expanded="false" />
-                <element signature="e#4701#4764#0" expanded="false" />
-                <element signature="e#4925#5122#0" expanded="false" />
-                <element signature="e#5173#5327#0" expanded="false" />
-                <element signature="e#5356#5696#0" expanded="false" />
-                <element signature="e#5728#6164#0" expanded="false" />
-                <element signature="e#6211#7171#0" expanded="false" />
-                <element signature="e#7201#7779#0" expanded="false" />
-                <element signature="e#7828#8470#0" expanded="false" />
-                <element signature="e#8512#8713#0" expanded="false" />
-                <element signature="e#8756#9220#0" expanded="false" />
+                <element signature="e#3883#4010#0" expanded="false" />
+                <element signature="e#4073#4181#0" expanded="false" />
+                <element signature="e#4250#4296#0" expanded="false" />
+                <element signature="e#4419#4609#0" expanded="false" />
+                <element signature="e#4705#4768#0" expanded="false" />
+                <element signature="e#4929#5126#0" expanded="false" />
+                <element signature="e#5177#5331#0" expanded="false" />
+                <element signature="e#5360#5700#0" expanded="false" />
+                <element signature="e#5732#6168#0" expanded="false" />
+                <element signature="e#6215#7175#0" expanded="false" />
+                <element signature="e#7205#7783#0" expanded="false" />
+                <element signature="e#7832#8474#0" expanded="false" />
+                <element signature="e#8516#8717#0" expanded="false" />
+                <element signature="e#8760#9224#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -245,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500478702928</updated>
-      <workItem from="1500478704129" duration="14690000" />
+      <workItem from="1500478704129" duration="14748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14690000" />
+    <option name="totallyTimeSpent" value="14748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="904" y="0" width="1017" height="1048" extended-state="0" />
@@ -321,8 +322,8 @@
     </entry>
     <entry file="file://F:/2017上课all/Javascript201701/第四周（动画轮播图jq 类的封装）/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="143" selection-end-column="5" />
+        <state relative-caret-position="274">
+          <caret line="145" column="8" lean-forward="true" selection-start-line="145" selection-start-column="8" selection-end-line="149" selection-end-column="5" />
           <folding>
             <element signature="e#105#384#0" expanded="false" />
             <element signature="e#431#554#0" expanded="false" />
@@ -335,28 +336,28 @@
             <element signature="e#3135#3343#0" expanded="false" />
             <element signature="e#3377#3601#0" expanded="false" />
             <element signature="e#3607#3739#0" expanded="false" />
-            <element signature="e#3911#4006#0" expanded="false" />
-            <element signature="e#4069#4177#0" expanded="false" />
-            <element signature="e#4246#4292#0" expanded="false" />
-            <element signature="e#4415#4605#0" expanded="false" />
-            <element signature="e#4701#4764#0" expanded="false" />
-            <element signature="e#4925#5122#0" expanded="false" />
-            <element signature="e#5173#5327#0" expanded="false" />
-            <element signature="e#5356#5696#0" expanded="false" />
-            <element signature="e#5728#6164#0" expanded="false" />
-            <element signature="e#6211#7171#0" expanded="false" />
-            <element signature="e#7201#7779#0" expanded="false" />
-            <element signature="e#7828#8470#0" expanded="false" />
-            <element signature="e#8512#8713#0" expanded="false" />
-            <element signature="e#8756#9220#0" expanded="false" />
+            <element signature="e#3883#4010#0" expanded="false" />
+            <element signature="e#4073#4181#0" expanded="false" />
+            <element signature="e#4250#4296#0" expanded="false" />
+            <element signature="e#4419#4609#0" expanded="false" />
+            <element signature="e#4705#4768#0" expanded="false" />
+            <element signature="e#4929#5126#0" expanded="false" />
+            <element signature="e#5177#5331#0" expanded="false" />
+            <element signature="e#5360#5700#0" expanded="false" />
+            <element signature="e#5732#6168#0" expanded="false" />
+            <element signature="e#6215#7175#0" expanded="false" />
+            <element signature="e#7205#7783#0" expanded="false" />
+            <element signature="e#7832#8474#0" expanded="false" />
+            <element signature="e#8516#8717#0" expanded="false" />
+            <element signature="e#8760#9224#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="246" column="23" lean-forward="false" selection-start-line="246" selection-start-column="13" selection-end-line="246" selection-end-column="23" />
+        <state relative-caret-position="674">
+          <caret line="252" column="23" lean-forward="false" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#!!block;n#jsonParse#0" expanded="false" />
@@ -380,14 +381,15 @@
             <element signature="n#!!block;n#prevAll#0" expanded="false" />
             <element signature="n#!!block;n#nextAll#0" expanded="false" />
             <element signature="n#!!block;n#index#0" expanded="false" />
+            <element signature="n#!!block;n#lastChild#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="751">
+          <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
           <folding />
         </state>
       </provider>
